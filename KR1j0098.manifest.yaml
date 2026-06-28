@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR1j0098/v1
+canonical_location: https://kanripo.org/bkk/KR1j0098/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 埤蒼一卷
+  identifiers:
+    krp: KR1j0098
+  tags:
+    kr-categories: KR1j
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR1j0098.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR1j0098_001.yaml, hash: 'sha256:93585a7eff41e182b90a135cab9ee294a2a073719011524bbd35683ec10e0706'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR1j0098_001.markers.yaml, hash: 'sha256:cfb6bdef23a820481069f2704806c47312c2eb886981e93ff6e3896f78347f9b'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR1j0098_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 5924
+  label: 埤蒼
+  type: section
+  level: 1
+hash: sha256:1edead0d2c6d090839c5896e69e2910b4aa1b344c5d4de85d3c65b7fe0d97e13
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
